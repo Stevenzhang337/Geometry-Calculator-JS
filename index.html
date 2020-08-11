@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>GeoCal</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href=FrontEnd/sidebar.css>
+    </head>
+    <body>
+        <!--Tool bar-->
+        <div class = "container-fluid" id = "top">
+            <h2></h2>
+            <div class = "row" id = "toolbar">
+                <div class = "col-sm-2" style = "font-size: 20px">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        GeoCal
+                    </nav>
+                    
+                </div>
+                <!--contains buttons-->
+                <div class = "col-sm-6" id = "subBar" style = "text-align: center">
+                </div>
+                <!--apply selection-->
+                <div class = "col-sm-1">
+                    <button type = "button" id = "applySel" class = "btn btn-info">
+                        Apply Selections
+                    </button>
+                </div>
+                <!--Account Info-->
+                <div class = "col-sm-2">
+                </div>
+            </div>
+        </div>
+
+        <!--Sidebar-->
+        <!--come back later-->
+        <!--https://bootstrapious.com/p/bootstrap-sidebar-->
+        <div class="wrapper" id = "main">
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3>Selections</h3>
+                    <h5 id = "title"></h5>
+                    <ul class="list-unstyled components" id = "selections">
+                    </ul>
+                </div>
+            </nav>
+            <div id="content">
+                <div class="container-fluid">
+                    <div id = "canvas"></div> 
+                    <!-- Modal -->
+                    <div class="modal fade" id="input" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Input</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id = "submit">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+                crossorigin="anonymous"></script>
+
+        <!--math-->
+        <script src = Modules/array.js></script>
+        <script src = Modules/geoMath.js></script>
+        <script src = Modules/shift.js></script>
+        <script src = Modules/geometryDataStruct.js></script>
+        <!--inits frontend-->
+        <script src = FrontEnd/initToolbar.js></script>
+        <script src = FrontEnd/initCanvas.js></script>
+        <script src = FrontEnd/modal.js></script>
+        <!--canvas-->
+        <script src = Canvas/modalApply.js></script>
+        <script src = Canvas/buttons.js></script>
+        <script src = Canvas/graphics.js></script>
+        <script src = Canvas/selection.js></script>
+        <script src = Canvas/shiftClick.js></script>
+        <script src = Canvas/shiftCanvas.js></script>
+        <script src = Canvas/sketchCanvas.js></script>
+    </body>
+</html>
