@@ -1,0 +1,29 @@
+geometryDataStruct.js Interface
+
+class Geometry
+
+Attributes:
+    .display
+    .shiftArr
+    .shiftProp
+    .objectArr
+    .parentArr
+    .childrenArr
+
+Methods:
+    .find(object)
+    .append(object)
+    .delete(object)
+    .shift(object, autocheck = true)
+    .currPos(object)
+    .partition(line, ratio1, ratio2)
+    .intersect(line1, line2)
+    .perpendicularline(point, line)
+    .median(point, line)
+    .angleBisector(line1, line2)
+    .diameter(point, circle)
+    .tangent(point, circle)
+    .reflect(object, reflectLine)
+    .rotate(object, rotatePoint, angle)
+    .translate(object, dx, dy)
+    .dilate(object, refPoint, scaleFactor)

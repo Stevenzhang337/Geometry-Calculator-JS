@@ -1,0 +1,61 @@
+Geometry Engine Interface:
+
+New Types:
+Point
+Line
+ExtLine
+Triangle
+Circle
+Polygon
+
+Definition Functions 
+    getPoints(object) //lines, triangles, quads, polygon
+    getLines(object) //triangles, quads, polygon
+
+Point Functions
+    partition(line)
+    getIntersection(line1, line2)
+
+
+Line Functions
+    lineToExtLine(line)
+
+    getPerpendicularLine(point, line)
+    getMedian(point, line)
+    getAngleBisector(point, line1, line2)
+
+    getDiameter(point, circle)
+    getTangent(point, circle)
+
+
+Polygon Functions
+    newRegPolygon(numOfSides, sideLength)
+
+Distance and Angle Functions
+    getDistance(line)
+    getAngle(point, line1, line2)
+    getSides(shape)
+    getIntAngles(shape)
+
+Area and Perimeter Functions
+    getPerimeter(shape)
+    getArea(shape)
+
+Transformation Functions
+    reflect(object, reflectLine)
+    rotate(object, reflectPoint, angle)
+    translate(object, dx, dy)
+    dilate(object, refPoint scaleFactor)
+
+Property Functions
+    pointEqual(point1, point2)
+    lineEqual(line1, line2)
+    circleEqual(circle1, circle2)
+    polygonEqual(shape1, shape2)
+    getSlope(line)
+    isParallel(line1, line2)
+    isIntersected(line1, line2)
+    isCollinear(point1, point2, point3)
+    isPerpendicular(line1, line2)
+    onLine(point, line)
+    onCircle(point, circle )
