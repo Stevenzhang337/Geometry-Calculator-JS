@@ -10,6 +10,7 @@ So here are the features of MVP:
 	Special lines including medians, perpendicular line, tangents etc.
 	Selection of specific geometric objects
 	Auto line, polygon formation
+	
 If I do come back to this project, I would like to add/change:
 	shifting of objects
 	better UI
