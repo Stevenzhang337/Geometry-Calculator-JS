@@ -52,7 +52,7 @@ var canvas = (function() {
                         let newObjs = init.preview().view
                         if (geo.pointEqual(newObjs[0], newObjs[1])) return;
                         let newLine = new geo.Line(newObjs[0], newObjs[1]);
-                        init.geoCanvas().append(newLine);
+                        init.geoCanvas().append(newLine, false);
                         init.preview().view = [];
                     }
                     sidebar.showSelection()
