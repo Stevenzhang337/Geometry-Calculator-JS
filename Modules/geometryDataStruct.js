@@ -999,7 +999,7 @@ var geoStruct = (function() {
             }
             this.append(line);
             this.append(point);
-            this.append(pl);
+            this.append(pl, false);
     
             let i1 = this.find(point);
             let i2 = this.find(line);
@@ -1057,7 +1057,7 @@ var geoStruct = (function() {
             let m = geo.getMedian(point, line);
             this.append(point);
             this.append(line);
-            this.append(m);
+            this.append(m, false);
     
             let i1 = this.find(point);
             let i2 = this.find(line);
