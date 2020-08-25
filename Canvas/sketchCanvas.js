@@ -29,7 +29,7 @@ var canvas = (function() {
                 case "Point":
                     //add function to create on Line
                     let p = init.preview().view[0];
-                    init.geoCanvas().append(p);
+                    init.geoCanvas().append(p, false);
                     break;
                 case "Partition":
                     //finds line
