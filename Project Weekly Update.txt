@@ -1,0 +1,270 @@
+05/08/2020 (Total Lines: 0)
+Project Start
+
+05/15/2020 (Total Lines: 1124)
+Completed the Math behind the geometry engine (geoMath.js)
+geoMath contains 41 functions and has been tested for correct implementation
+Throughout this week I have learned a lot about node.js and frontend/backend 
+structures. While I still have a lot to learn about web development, I believe I
+got a good start this week learning about the types of programs people use. From
+this week I can say that while this week and probably the next wont require me knowing
+anymore more than pure JS, I definitely plan on creating some sort of
+server side program
+I had made this geometry module as broad as I can because even after this project,
+I felt I still could use a geometry library. As a result, I have decided that for
+the next week, I will be seperately implementing a geometry data structure. While this
+may not be as practical as the geometry engine, I felt it was a good use of file 
+specialization as the geoMath.js is about 1100 lines. 
+Outlining the rest of the project, I plan on creating the canvas portion of project
+after the data strucuture. I estimate that will take about one and a half weeks.
+Then the project is complete locally, but I still want to create a server and 
+upload this to the web. That part still needs to be fleshed out but hopefully I will
+learn more. 
+I have a feeling this week will be the most straightforward week because even thinking
+about the data structure, it still yet to be determined the best way of implementing
+this structure.
+
+05/22/2020 (Total Lines: 1779)
+This whole week was spent on the data structure for storing and dynamically updating
+geometric shifts. This part of the project was definetly a lot tougher than last week, 
+mainly because there was a large focus on algorithms and data structures. Compared to 
+last week, it was more or less straightforward as it was just implementing the mathematics
+behind basic geometric operations. 
+I definetly think the trickest part of this week was trying to find an efficient and 
+practical way to implement dynamic checking. There was a lot of trial and error but I
+have settled on a system I am happy with. It uses hash functions, and multiple arrays,
+keeping track of relationships between different geometric objects.
+While I am not finished with this module, I plan to finish the module along with its
+testing by Monday. From there, I can either start with the canvas module and finally
+start drawing or I can work on other backend infrastructure that I have been thinking
+about such as a dynamically changing tool bar or a clicker that detects nearby geometric
+objects. Either way, I can start working with canvas coordinates and transition away 
+from the mathematics and into more of the frontend development.
+Throughout this week I have noticed, I have been spending less and less time per day
+on the project. While I still haven't missed a day, I feel some of my original motivation
+as gone down. I believe that is mostly due to the development of the algorithm and 
+its difficulty. Hopefully things will pick back up once I start developing the canvas
+module
+
+06/02/2020 (Total Lines: 2364)
+I missed the update weekly update last friday so I am writing this on Tuesday to
+make up for the last week. I have just finished the data structure module at 1200 lines.
+It did take an extra week for me to finish mostly because I had missed a few days
+last week and my motivation had waned. I am finally happy to move on. However, if I 
+can do this all again, it would definetly be different but it is good enough to move
+on to the next stage. 
+Looking ahead, I may not dive straight into the next part of the project right away.
+I might take a few days into researching more about web development. However, I think
+I will not end up using the p5 module for the graphics. Instead, I think that the graphics
+I need are simple enough where I can build my own graphics library.
+Also I will need to start to think about the UI and other front end components. As of now
+I think the next step would be to create module to communicate with the canvas. For
+example, a way to convert between geometry coordinates and canvas coordinates and to 
+the mouse detect nearby objects. I definetly think this will be a lot simplier than 
+the previous two weeks.
+One thing I have thought a little about is scalability. I believe that the data structure
+is easily able to take in more geometric functions but I do have to think more about
+scalability in future modules.
+In the coming weeks, things should get more exciting as we start interacting with the 
+cavans.
+
+06/11/2020 (Total Lines: 2499)
+After a missing a few days not working on the project, it is nice to be back and 
+working on some of the front end development. This week I learned a lot about 
+different html/css/javascript packages and frameworks. I learned a lot about
+bootstrap, jquery and requirejs. Today I was experimenting how to implement modules
+more effectively on the program and tried learning requirejs. While the idea is simple
+I did not find a lot of documentation on the subject. I think I will ultimately
+abandon it. From what I have seen online, the popularity of requirejs has more or
+less gone down. Hopefully I will find a more popular package.
+However, working with the website design was exciting. Seeing the layout of the page
+makes you realize how close the end goal is. However, I still realize that it may 
+that at least two weeks to be close to done.
+Because I mostly worked on front end stuff, the total number of lines written this
+week did not increase significantly. I learned that frontend is mostly trial and error
+and trying to find the right combination of style to make a design look good. I really
+enjoyed jquery as it dealt with the functions of design components like buttons.
+Three days ago today has been a month since the project started. There was a lot of progress
+but I did take several days off. Because most of my time was spent on backend, I 
+cannot really see the fruits of my labor until the frontend bringss it all together.
+Looking ahead, the coming days and weeks will be spent on bridging the front end
+components with backend. I believe this will be the most exciting part because I 
+can start to see things come together. This week was also the first time I had 
+interacted with the canvas. The canvas can not detect mouse clicks.
+All in all, I say project is about half or more than half way done and I am excited to
+see it come to life.
+
+06/19/2020 (Total Lines: 3072)
+This week has definetly been the most exciting week because the canvas and functionalities
+are coming together. I can draw points and lines and select objects. There was a mix
+of frontend and backend development which is interesting. I've noticed that I have
+been thinking a lot about style and modules and what the best way to organize all the code.
+Now that I am finally utilizing the modules I've first written, I have noticed things
+I want to do differently. If I heavily want to invest in this project, perhaps down 
+the road I would want to rewrite some of the code. I hope the way I am structing this
+project would allow me to easily swap and replace code.
+I've also noticed a lot of problems I did not foresee. While that is inevitable, I
+did try my best to plan for the future especially by making the data structure that solves
+many issues. But I am currently having trouble with selection especially with cycling 
+through selections where many objects overlap. As of now, I am thinking of creating
+a new module that deals with just that whilst editing the data structure module. While it
+is very fun to see everything come together, there is still a long ways to go.
+I made a schedule to predict the remaining length of the project. Best case scenerio, I 
+will finish within a month. Looking at the trends, my stamina for coding has gone down
+over the weeks mostly because of the quarentine and I wouldn't be surprised if I 
+took a week off but it is looking like this project may last the majority of the summer.
+Looking ahead, I think the next week will be working on the new module on selections
+and I predict that will take at least a few days if not a week. I am still excited to
+put up new features and to making the program more sophisticated.
+
+06/26/2020 (Total Lines: 3369)
+During this week, I implemented partition with the modal, composition selection 
+and extended lines. Composition selection took the most time because it came from trying
+to solve the selection cycles mentioned last week. I eventually decided to not implement 
+cycles once the cycles gets long, it is inefficient for the user to scroll through.
+I eventually came up with composition selection where you would shift click the segment
+of the line you want to form. This gives the user more flexibility and control.
+However, the next problem that came with that was with overlaps. Often times, many
+of the lines are drawn on top of each other and it was difficult to highlight the line 
+if other lines were on top of it. The simple solution I gave was to increase the width
+as well so that selected lines stick out even if the line is in the background.
+Also this week, I found another geometry web app called Geogebra. After a brief
+look into the UI and functionalities, I was very impressed with the design and it offered
+many of the same functions I planned on providing. It was a little discouraging because
+that meant my program will not be the first of its kind. But because I found that app and 
+compared it to mine, I rethough my mission statement for creating my version. After some
+time, I came to the realization that I wanted my app to be focus on computation and conciseness.
+I noticed that with this app and Desmos, it focused more on trival geometric operations
+and transforamtions, it would be hard or would require many steps to create an exact figure.
+While they can perform reflections, and shifting very easily, it requires many steps
+to create an exact complex figure. As a result, I wanted to emphasize what I thought
+they lacked. Ultimately I want this program to aid us in finding geometry solutions very 
+quickly.
+All in all, I felt I made good progress with the program especially because I had some 
+challenging obstacles come up. With the new mission statement, I don't think much will
+change in the coming week with what I had originally planned but I think there will be
+some design changes.
+Something I have noticed as well this week was that design now played a factor in
+coding and whatever solution I came up with had to be efficient code and show up
+as good design on the frontend.
+By next week, I plan to add circles, and hopefully all of the lines functions
+because they are all so similar. Hopefully it will be a more straighforward week.
+
+07/03/2020 (Total Lines: 3723)
+We are approaching the 2 month mark and I am happy with my progress. This week, I
+accomplished a lot more than I thought I was able to. I implemented the special lines
+function and circles really quickly. The remainder of the week I worked on some loose
+ends from shift click and selections. The selection part of the project is becoming
+increasingly more complicated and jumbled and honestly discourages me from the project.
+If I could do it all again, I would have to design a better data structure with that in mind.
+With that in mind I am kinda fearful when I start to implement the shift feature.
+That took a long time to design in the data structure phase. I am honestly considering
+abandoning that feature if it becomes too messy especially because I added new functions
+to the data struct class without regards to the shift.
+However, dispite the selection problems, it is a lot easier to implement each of the
+geometric functions. Because of this, I took three days off this week. While I accomplished
+everything I set off to do this week and more, I would still want to wrap up this project
+within the month of July. As a result, I will plan out the remaining month the best I can.
+For next week, I want to implement the regular polygons, and all of the measure functions.
+Then, I want to implement transformations in the following week. Then by the third week of july,
+I want to add any last functions like tangent and diamter and tackle the beast: shifting.
+Then in the final week, we are going to focus on fully design. Hopefully by then, everything
+will be all finished and we can think about whether we want to host the website.
+I am assuming that my rough calender will not go as plan because some things may take
+more or less time than others and there will be unexpected features I forgot to add.
+Hopefully everything will still work out so that I will be done by August.
+
+07/11/2020 (Total Lines: 4068)
+In the past, week, I managed to stay on schedule. But this weekend I will take a break
+from this project to work a project for a hackathon. That will erase two days from
+the project but I believe that I will still finish all of the transformation functions.
+As of now, I am on schedule but I still believe I can finish the project by the end
+of July. Worse comes to worse, I still have two weeks of wiggle room before I head
+back to Pittsburgh for college but I definetly want to finish before I leave.
+This week was more or less straightforward. The thing that I struggled with the most
+was creating the arc for displaying an angle. The code is currently messy but functional.
+I think I will leave it but I will leave a comment about how it could be better.
+That piece of code makes me think that I am trying to rush the project. I think an
+important lesson I learned about that is that you should fully plan out an algorithm 
+before you write it. I think when I already have code on the screen, I will try to 
+adjust it base on what's already there and not on based on a better algorithm. This
+week was also special because I finally added a numerical component to program. It can
+now analyze geometric figures more precisely which is one of its core features. 
+I also noticed this week, my lack of attention to the apply all button. After some
+inital thought, I realize it does not have applications in all the current features
+and I am thinking about removing it entirely.
+This week I also added the regular polygon, which is nice because it adds an element
+of preciseness. All in all, this week was pretty standard. Hopefully I can keep up
+the same pace next week.
+
+07/17/2020 (Total Lines: 4471)
+In total, I worked a total of 3 days on this project this week. One reason for that 
+was the hackathon which was successful. We built a reminder app in python. That took two
+days out of the weekend. The rest of the days, I slacked off and took a lot of days off.
+However, this week's schedule asked to finish transformations which I finished in a day.
+Then for two days, I worked on any addition functions that I didn't add the first time
+like tangent, diameter, set length, angle and exact triangle construction. So as of
+now, all the implementation of the math is complete which is a huge milestone.
+According to the schedule I set for myself in the beginning of July, next week I need
+to work on shifting which I predict will be very hard.
+I've noticed some functions do not work as intended and I will try to rewrite some
+of those functions before I finish the project. Most of these functions involves angles
+which this projecct has shown multiple times can be hard to work with.
+Going back to this week, this week was more or less straightforward because I have
+gotten the process of implementing the button functions very efficiently.
+My fear for next week is that as I added more stuff to the data structure, I neglected
+to change the shift structure to match. That could be really messy but hopefully it 
+works out.
+Again I still need to work on how to implement apply selection and finally I need to work
+on design.
+
+07/21/2020 (Total Lines: 4490)
+Sadly I have decided today that this will be the end of the project. After trying to
+implement shifting, I realized how difficult it is to implement it given the existing
+code. I felt that if I wanted an implementation I would be satisfied with, I would
+need to rewrite a lot of the foundational code. Although it looks like I did not
+write a lot of lines of code, there were many frustrating moments of deleting code.
+This was especially hard because I had to rely on infrastructure I wrote months ago
+in attempt to plan for the canvas implementation. Many unforeseen circumstances arose 
+and it made everything more difficult.
+Another reason I decided to end things now instead of trying to complete the rest of the
+schedule is because I noticed in myself I slowly became burnt out from this project.
+It was less and less exciting. I think I can attribute most of that to the increasingly
+messy code and disorganization. While I tried my best to write concise code, I was increasingly
+less satisfied with the project.
+While this project is technically incomplete, I am very proud of myself for writing this
+much code and sticking with the project this long. With a total of 4490 lines of javascript
+code (even more counting html and css) and a runtime of 2.5 months, this beats my current
+longest running project (evolution similator) which ran for 3 weeks with 1500 lines of python
+This was a transformative experience and I learned so much about coding and I am
+a much better programmer because of this.
+If in the case, I do want to revive this project. I have some advice:
+In order to dynamically implement a line, we need a distinction between endpoints and
+points on the line. Along the same idea, try to pay special attention in how we lines
+and shapes change as we add more objects on it. This is especially helpful when we 
+look at shifting and sublines
+Angles are difficult to work with especially because its all relative. 
+Something I strongly encourage to do next time for all graphics related project is 
+to have some strongly defined vector functions. this is especially important if we 
+need to get a certain canvas coordinates.
+It has been a fun time working on this. Hopefully I can find a project equally as 
+exciting and large.
+
+08/25/2020 (Total Lines: 4495)
+While I am not reviving this project just yet, I've realized recently how I may have underestimated how successful this project was. Even if I did not implement the shift properties, I believed I did reach an MVP of sorts. So for the last few days, I cleaned up some bugs and decided to publish the project on GitHub.
+So here are the features of MVP:
+	Construction of Points, lines, line segment, circles, polygon and exact figures
+	Measure of Length, Angle, Area and Perimeter
+	Geometric transformations
+	Special lines including medians, perpendicular line, tangents etc.
+	Selection of specific geometric objects
+	Auto line, polygon formation
+If I do come back to this project, I would like to add/change:
+	shifting of objects
+	better UI (perhaps using react or angular)
+	bug fixes
+	Saving
+	Deleting
+	Undo
+For now I am happy that my work for the summer is published online. 
+	
