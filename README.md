@@ -23,13 +23,20 @@ Some things I would like to add/change:
 	Deleting;
 	Undo;
 
-
-<img width="1439" alt="Screen Shot 2021-12-19 at 2 18 13 PM" src="https://user-images.githubusercontent.com/69471291/146692878-ed22e910-79df-4a3f-a95e-243aeb718624.png">
-<img width="1440" alt="Screen Shot 2021-12-19 at 2 19 08 PM" src="https://user-images.githubusercontent.com/69471291/146692881-0a5600d1-3e3f-444e-93af-4d5203809b33.png">
-<img width="1440" alt="Screen Shot 2021-12-19 at 2 20 05 PM" src="https://user-images.githubusercontent.com/69471291/146692889-b2d5a36e-8a55-4167-87ca-72470c7b884c.png">
-<img width="1440" alt="Screen Shot 2021-12-19 at 2 20 18 PM" src="https://user-images.githubusercontent.com/69471291/146692892-c94899ed-f9c8-4412-abc7-b16f97b16aa2.png">
-<img width="1440" alt="Screen Shot 2021-12-19 at 2 20 34 PM" src="https://user-images.githubusercontent.com/69471291/146692896-a29bf6a3-608d-402b-99f1-19dab7ee8a27.png">
+<br>
+Empty Canvas
+<img width="800" alt="Screen Shot 2021-12-19 at 2 18 13 PM" src="https://user-images.githubusercontent.com/69471291/146692878-ed22e910-79df-4a3f-a95e-243aeb718624.png">
+<br>
+Able to construct points, lines segments,
+<img width="800" alt="Screen Shot 2021-12-19 at 2 19 08 PM" src="https://user-images.githubusercontent.com/69471291/146692881-0a5600d1-3e3f-444e-93af-4d5203809b33.png">
+<br>
+Able to construct circles, triangles
+<img width="800" alt="Screen Shot 2021-12-19 at 2 20 05 PM" src="https://user-images.githubusercontent.com/69471291/146692889-b2d5a36e-8a55-4167-87ca-72470c7b884c.png">
+<br>
+Able to construct exact geometric figures
+<img width="800" alt="Screen Shot 2021-12-19 at 2 20 18 PM" src="https://user-images.githubusercontent.com/69471291/146692892-c94899ed-f9c8-4412-abc7-b16f97b16aa2.png">
+<img width="800" alt="Screen Shot 2021-12-19 at 2 20 34 PM" src="https://user-images.githubusercontent.com/69471291/146692896-a29bf6a3-608d-402b-99f1-19dab7ee8a27.png">
 The app is able to determine angle, area, perimeter and other geometric measures. (it is unlabeled, perhaps a feature for next time)
-<img width="1440" alt="Screen Shot 2021-12-19 at 2 21 08 PM" src="https://user-images.githubusercontent.com/69471291/146692898-8f63cfdb-1077-443a-95e6-076a5be31a4a.png">
+<img width="800" alt="Screen Shot 2021-12-19 at 2 21 08 PM" src="https://user-images.githubusercontent.com/69471291/146692898-8f63cfdb-1077-443a-95e6-076a5be31a4a.png">
 An example of creating complex and compound geometric figures
-<img width="1440" alt="Screen Shot 2021-12-19 at 2 29 10 PM" src="https://user-images.githubusercontent.com/69471291/146693210-f84d4d31-555c-41b3-87f8-98e781d45a0f.png">
+<img width="800" alt="Screen Shot 2021-12-19 at 2 29 10 PM" src="https://user-images.githubusercontent.com/69471291/146693210-f84d4d31-555c-41b3-87f8-98e781d45a0f.png">
